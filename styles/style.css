@@ -1,0 +1,101 @@
+/* common styles */
+body{
+    font-family: 'Merriweather', serif;
+}
+/* Header styles start */
+header{
+    background-image: url('../images/Banner\ Image.png');
+    background-size: cover;
+    max-width: 1320px;
+    height: 600px; 
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.header-mini-title{
+    font-size: 32px;
+    color: #9fbdd6;
+    font-weight: 400;
+    text-align: center;
+
+}
+.header-title{
+    color: #8bbad1;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+}
+/* main styles start */
+
+/* discount section styles */
+.discount-section{
+   text-align: center;
+}
+.discount-amount{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.disTitle1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.disTitle2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* welcome section styles */
+.welcome-section{
+    background-image: url('/images/Vectorrr.png'); 
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome-content{
+    width: 50%;
+}
+.welcome-title{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+.welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn{
+    background-color: #f70;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+.welcome-image{
+    width: 320px;
+    height: 465px;
+}
