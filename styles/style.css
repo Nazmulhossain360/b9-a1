@@ -2,6 +2,9 @@
 body{
     font-family: 'Merriweather', serif;
 }
+section{
+    max-width: 1320px;
+}
 /* Header styles start */
 header{
     background-image: url('../images/Banner\ Image.png');
@@ -20,24 +23,29 @@ header{
 
 .header-mini-title{
     font-size: 32px;
-    color: #9fbdd6;
+    color: #FFF;
     font-weight: 400;
     text-align: center;
 
 }
 .header-title{
-    color: #8bbad1;
+    color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px; 
 }
+.hspan{
+    color: #5c2106;
+}
 /* main styles start */
 
 /* discount section styles */
 .discount-section{
    text-align: center;
+   margin: 0 auto;
+   
 }
 .discount-amount{
     color: #F00;
@@ -59,6 +67,9 @@ header{
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+}
+.dis-image{
+    margin-bottom: 80px;
 }
 /* welcome section styles */
 .welcome-section{
@@ -89,13 +100,117 @@ header{
     line-height: 30px;
 }
 .btn{
-    background-color: #f70;
-    color: #FFF;
+    background-color: #fff;
+    color: #200303;
     padding: 10px;
     border-radius: 5px;
     border: 0;
 }
+.btn:hover{
+    background-color: #f80;
+    color: #fff;
+    border-radius: 10px 0 10px 0;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
 .welcome-image{
     width: 320px;
     height: 465px;
+    
+}
+/* Date and place styles */
+.dateTime{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 1320px;
+    height: 485px;
+    margin: 0 auto;
+    color: rgb(23, 1, 1);
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  
+}
+.dtContent{
+    position: relative;
+    top: 100px;
+}
+.btn-dt{
+    background-color: #f40;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+}
+.btn-dt:hover{
+    border-radius: 15px 0 15px 0;
+    transition: 0.6s;
+    transform: scale(1.2);
+}
+.dtspan{
+    color: #F00;
+}
+/* coming soon section styles */
+.comingSoon-section{
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.comingSoon-content1,.comingSoon-content2,.comingSoon-image{
+    width: 30%;
+}
+.cs-min-title{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.cs-title{
+    color: #070211;
+    font-family: Merriweather;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.cs-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.cs-content2-year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.cs-content2-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.comingSoon-image-space{
+    width: 410px;
+    height: 410px;
+    border: 30px solid #FFF;
+    border-radius: 50%;
+    background-image: url('/images/Ellipse\ 1.png');
+    background-size: cover;
+    outline: 15px solid #F00;
+    margin: 0 80px 0 40px ;
 }
