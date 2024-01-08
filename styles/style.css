@@ -288,3 +288,91 @@ header{
     position: relative;
     right: 160px;
 }
+/* Portfolio section styles */
+.portfolio-section{
+    margin: 0 auto;
+}
+.port-min-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.port-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.port-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.portImg-content img{
+    width: 320px;
+    height: 380px; 
+    border-radius: 16px;
+   
+}
+.portImg-content{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+/* subscribe section styles */
+.subscribe-section{
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.sub-icon{
+    margin-top: 70px;
+}
+.sub-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sub-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    margin: 22px 212px 35px 212px;
+}
+.sub-input{
+    padding: 29px;
+    border: 0;
+    border-radius: 50px 0 0 50px;
+    margin-right:0;
+    
+}
+.sub-btn{
+    width: 180px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #f00;
+    border: 0;
+    padding: 20px;
+    border-radius: 0 50px 50px 0 ;
+    margin-left: 0;
+}
