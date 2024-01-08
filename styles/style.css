@@ -3,13 +3,16 @@ body{
     font-family: 'Merriweather', serif;
 }
 section{
-    max-width: 1320px;
+    width: 80%;
 }
 /* Header styles start */
 header{
-    background-image: url('../images/Banner\ Image.png');
+    /* background-image: url('../images/Banner\ Image.png'); */
+    background-image:
+    linear-gradient(to Top, rgba(1, 3, 19, 0.52), rgba(18, 18, 18, 0.73)),
+    url('../images/Banner\ Image.png');
     background-size: cover;
-    max-width: 1320px;
+    width: 80%;
     height: 600px; 
     margin: 0 auto;
     border-radius: 20px;
@@ -73,13 +76,17 @@ header{
 }
 /* welcome section styles */
 .welcome-section{
-    background-image: url('/images/Vectorrr.png'); 
-    max-width: 1320px;
+    /* background-image: url('/images/Vectorrr.png');  */
+    background-image:
+    linear-gradient(to Top, rgba(1, 3, 19, 0.52), rgba(18, 18, 18, 0.73)),
+    url('../images/Vectorrr.png');
+    width: 80%;
     height: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 20px;
 }
 .welcome-content{
     width: 50%;
@@ -120,7 +127,8 @@ header{
 }
 /* Date and place styles */
 .dateTime{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background:
+    linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     max-width: 1320px;
     height: 485px;
     margin: 0 auto;
@@ -131,6 +139,7 @@ header{
     font-weight: 600;
     margin-top: 90px;
     margin-bottom: 90px;
+    border-radius: 20px;
   
 }
 .dtContent{
@@ -155,6 +164,7 @@ header{
 /* coming soon section styles */
 .comingSoon-section{
     margin: 0 auto;
+    width:80%;
     display: flex;
     height: 500px;
     justify-content: space-between;
@@ -205,12 +215,51 @@ header{
     line-height: 32px;
 }
 .comingSoon-image-space{
-    width: 410px;
-    height: 410px;
-    border: 30px solid #FFF;
+    width: 400px;
+    height: 360px;
+    border: 20px solid #FFF;
     border-radius: 50%;
-    background-image: url('/images/Ellipse\ 1.png');
+    background-image: url('../images/Ellipse\ 1.png');
     background-size: cover;
-    outline: 15px solid #F00;
-    margin: 0 80px 0 40px ;
+    outline: 15px solid #F00; 
+    margin: 0 40px 0 20px ;
+}
+/* Holiday section styles */
+.holiday-section{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+   
+}
+.holiday-min-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.holiday{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+}
+.holiday-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
 }
