@@ -311,16 +311,22 @@ header{
     font-size: 20px;
     font-weight: 400;
 }
-.portImg-content img{
-    width: 320px;
-    height: 380px; 
-    border-radius: 16px;
-   
-}
 .portImg-content{
     margin-top: 40px;
     margin-bottom: 100px;
+
 }
+.fist-portImg > img,.second-portImg > img{
+    width: 320px;
+    height: 380px; 
+    border-radius: 16px;
+    margin: 10px;
+}
+.fist-portImg,.second-portImg{
+    display: flex;
+    justify-content: center;
+}
+
 /* subscribe section styles */
 .subscribe-section{
     height: 616px;
