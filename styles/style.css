@@ -354,25 +354,103 @@ header{
     line-height: 32px; 
     margin: 22px 212px 35px 212px;
 }
-.sub-input{
-    padding: 29px;
-    border: 0;
-    border-radius: 50px 0 0 50px;
-    margin-right:0;
+input[type="email"]{
+   border: 0;
+    outline: 0;
+    width: 210px;
+    height: 70px;
+    border-radius: 50px 0 0 50px ;
+    text-align: center;
     
 }
-.sub-btn{
-    width: 180px;
+input[type="submit"]{
+    position: relative;
+    right: 4px;
+    top: 3px;
+    background-color: #f00;
+    color:#FFF;
+    border: 0;
+    outline: 0;
+    width: 170px;
     height: 72px;
-    color: #FFF;
+    border-radius: 0px 50px 50px 0px;
     text-align: center;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 600;
+    line-height: normal;
     text-transform: capitalize;
-    background-color: #f00;
-    border: 0;
-    padding: 20px;
-    border-radius: 0 50px 50px 0 ;
-    margin-left: 0;
+
+}
+/* Footer styles start */
+footer{
+    background: #070211;
+    color: #FFF;
+}
+.footer-section{
+    margin: 0 auto;
+    width: 80%;
+}
+.footer-address{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    display: flex;
+    align-items: center;
+    margin-bottom: -50px;
+}
+.website{
+    display: flex;
+    align-items: center;
+    margin-top:-50px;
+}
+.state{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.callIcom,.web-icon{
+    width: 24px;
+    height: 24px;
+}
+.web-domain,.phonenum{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400; 
+
+}
+hr{
+    background: rgba(18, 0, 0, 0.8);
+    width: 80%;
+    height: 1px;
+    border-top: 0;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons > img{
+    margin: 10px;
+    width: 44px;
+    height: 44px;
+    margin: 30px;
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.copyRight,.unsub{
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 80px;
 }
